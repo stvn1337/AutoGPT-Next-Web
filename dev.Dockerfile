@@ -1,5 +1,4 @@
 FROM node:19-alpine
-
 RUN apk update && apk add --no-cache openssl
 
 ARG NEXTAUTH_PUBLIC_GUEST_KEY
